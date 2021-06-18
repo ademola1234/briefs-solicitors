@@ -1,0 +1,646 @@
+body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+header div{
+    background-color: #9b0101;
+    height: 3.5em;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    font-family: "montserrat",sans-serif;
+}
+header div img{
+    position: absolute;
+    z-index: 1;
+    margin-left: 100px;
+    margin-top: 13px;
+}
+ #img2{
+   font-size: 20px;
+  padding-top: 20px;
+    padding-left: 750px; 
+}
+#img3{
+  font-size: 20px;
+  padding-top: 20px;
+padding-left: 20px;
+}
+
+
+
+#img4{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#img5{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+header div p{
+    padding: 0.5px;
+    margin-left: 120px;
+   
+}
+.secondwb{
+    display: flex;
+    flex-flow: row;
+    background-color:#ffffff;
+     height: 85px;
+}
+.secondwb img{
+     margin-top: 9px;
+     margin-left: 115px;
+
+}
+.nav-opt{
+    display: flex;
+    text-decoration: none;
+    margin-left: 400px;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+  }
+#home{
+   width: 70px;
+    color: #9b0101;
+}
+#practice{
+    width: 100px;
+}
+#about{
+   width: 70px;  
+}
+#our{
+   width: 100px;
+} 
+#public{
+    width: 110px;
+}
+#contact{
+    text-align: right;
+    width: 50px;
+}
+.nav{
+    padding: 25px 10px;
+    width: 100px;
+}
+.nav:hover{
+    color: #9b0101;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'montserrat', sans-serif;
+  }
+  #contact-us{
+    display: flex;
+    color: white;
+    background-color: rgb(155, 1,1);
+    font-family: 'montserrat', sans-serif;
+    font-size: 0.95em;
+    width: 135px;
+    height: 32px;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-left: 22px;
+    margin-top: 22px;
+    margin-left: 70px;
+  }
+  .thirdwb{
+    background: url(images/hands.jpg);
+    background-size: cover;
+    background-position-y: -220px;
+    height: 470px;
+    font-weight: 500;
+    margin: 0px;
+    border-bottom: 5.5px solid rgb(147, 2, 2);
+    color: rgb(244, 244, 244);
+  }
+  .thirdwb #top h3{
+    font-family: "roboto slab", serif;
+    font-size: 3.15em;
+    font-weight: 500;
+    margin-bottom: 10px;
+  
+  }
+.thirdwb p{
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 7px;
+    font-weight: 400;
+  }
+  #top{
+    padding-top: 120px;
+    text-align: center;
+  }
+  .row3 {
+    margin-top: 40px;
+  }
+.link3 {
+    margin: 8px;
+    border: solid white 1px;
+    padding: 13px 28px;
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5) ;
+  }
+#request {
+    background-color: #9b0101;
+  }
+#getic{
+    border-radius: 3px;
+  }
+  .middletop{
+    background: rgb(234, 233, 233);
+  }
+  .fourthwb{
+    background: rgb(234, 233, 233);
+  }
+  .fourthwb{
+    height: 452px;
+    margin: 0px 120px 0 140px;
+    background: rgb(234, 233, 233);
+    display: flex;
+  }
+  .one{ 
+    margin-right: 17px;
+    width: 48%;
+  }
+  
+  #right{
+    background: url(images/LEGAL_gavel-scale-book_10-5-2018.jpg);
+    background-size: contain;
+    background-position-y: 27px;
+    height: 90%;
+    width:50%;
+    margin: 20px 7px 20px 10px;
+  }
+  .left{
+    height: 180px;
+    margin-right: 30px;
+    line-height: 0px;
+    padding-top: 0px;
+  }
+
+  /* .left #above{
+    position: relative;
+    right: 90px;
+  } */
+  #above h3{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: rgb(155, 1,1);
+  font-size: 40px;
+  font-family: "Roboto Slab", sans-serif;
+  }
+  #above p{
+    font-family: 'montserrat', sans-serif;
+    line-height: 13px;
+    padding-bottom: 0px;
+  }
+  #above a{
+    color: rgb(136, 5, 5);
+    margin-left: 5px;
+  }
+  #below{
+    display:flex;
+    background: rgb(246,242,242);
+    padding: 2px 5px 5px 5px;
+    margin-top: 20px;
+  }
+  #vision{
+    margin-left: 31px;
+  }
+  #mission{
+    margin-left: 3px;
+  }
+  #below p {
+    font-family: 'montserrat', sans-serif;
+    line-height: 1px;
+    padding:10px 10px 0px 0px;
+  }
+  #below h4 {
+    color: rgb(155, 1,1);
+    font-family: 'roboto slab', serif;
+  
+    font-size: 21px;
+    padding-bottom: 10px;
+  }
+  .fifthwb{
+    text-align: center;
+    padding: 8px;
+    border-bottom: 3px double rgb(112, 8, 8);
+    }
+    .fifthwb h3{
+      font-family: 'roboto slab', serif;
+      font-size: 33px;
+      font-weight: 400;
+      color: rgb(155, 1,1);
+      margin-top: 40px;
+    }
+    #content{
+      margin:auto;
+      width: 83%;
+      height: 70%;
+    }
+    #content .con{
+      width: 357px;
+      height: 324px;
+      background-color: rgb(245,245,245);  
+    }
+    .con{
+      transition: all .3s .1s;
+    }
+    .con:hover{
+      border-bottom: 4.5px solid rgb(112, 8, 8);
+    }
+    #topcon:hover .con{
+      height: 326.5px;
+    }
+    #bottomcon:hover .con{
+      height: 326.5px;
+    }
+    
+    #topcon{
+      display: flex;
+      margin-top: 17px;
+    }
+    #litigation{
+      margin: 0px 15px 15px 15px;
+    }
+    #bottomcon{
+      display: flex;
+      margin-bottom: 30px;
+    }
+    #real{
+      margin: 0px 15px 15px 15px;
+    }
+    .con{
+      padding: 10px;
+      font-family: 'montserrat', sans-serif;
+      line-height: 25px;
+    }
+    .con p{
+      font-size: 14px;
+      margin-top: 6px;
+    }
+    .con p a{
+      color: rgb(136, 5, 5);
+    }
+    .con h4{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding: 0px 3px;
+    }
+    #compliance p{
+      padding: 0px 7px;
+    }
+    #litigation p{
+      padding: 0px 13px;
+    }
+    #AML p{
+      padding: 0px 10px;
+    }
+    #energy p{
+      padding: 0px 8px;
+    }
+    #real{
+      padding: 0px 20px;
+      
+    }
+    #corporate p{
+     padding: 0px 13px; 
+     
+    }
+    #link5{
+      margin: 45px 0px 12px;
+      width: 100%;
+    }
+    #link5 a{
+      border: solid white 1px;
+      padding: 10.5px 25px;
+      color: white;
+      font-family: 'montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: 360;
+        background: rgb(147, 2, 2);
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+    .sixth{
+    text-align: center;
+    background-color:rgb(245,245,245);
+    margin: 0px;
+    padding: 0px;
+    height: 670px;
+    }
+    .sixth h3{
+      font-family: 'roboto slab', serif;
+      font-size: 33px;
+      font-weight: 400;
+      color: rgb(155, 1,1);
+      padding: 70px 0px 35px;
+    }
+    .holder{
+      display: flex;
+      width: 81.5%;
+      margin: auto; 
+      cursor: pointer; 
+    }
+    
+    .hold{
+      width: 100%;
+      height: 355px;
+      background-color: #242222;
+      color: #ffffff;
+      font-size: 18px;
+      font-family: 'montserrat', sans-serif;
+       
+    }
+    
+    
+    #two{
+      margin: 0px 20px;
+      background-color: rgb(87,5,5);
+      
+    }
+    #link6{
+      margin: 60px 0px 88px;
+      width: 100%;
+    }
+    #link6 a{
+      border: solid white 1px;
+      padding: 11px 24px;
+      color: white;
+      font-family: 'montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: 360;
+      background: rgb(147, 2, 2);
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+    .red{
+      background-color: rgb(133,49,61);
+      color: white;
+      font-family: 'open sans',sans-serif;
+      text-align: center;
+    }
+    .red h4, .red p{
+      font-family: 'montserrat', sans-serif;
+      margin-left: 90px;
+    }
+    .red p{
+      color: #f0eeee;
+      font-weight: 300;
+      font-size: 19px;
+      line-height: 34px;
+      letter-spacing: 2.1px;
+      padding-bottom: 22px;
+    }
+    .red h4{
+      font-weight: 400;
+      line-height: 24px;
+      font-size: 24px;
+      padding: 55px 0px 20px;
+    }
+    form{
+      display: flex;
+      font-family: 'open sans', sans-serif;
+      align-items: center;
+      margin-left: 180px;
+    }
+    .for{
+      margin: 0px 5.5px 97px;
+    }
+    .for input, .for button{
+      width: 230px;
+      height: 46px;
+      border-radius: 4px;
+      border: none;
+      font-size: 16px;
+    }
+    .for input{
+      padding: 0px;
+      color: rgb(172, 172, 172);
+      font-family: 'open sans', sans-serif;
+      border: 1px solid rgb(167, 167, 167);
+      font-weight: 100;
+    }
+    #sub button{
+      background-color: rgb(147, 1,1);
+      color: white;
+      font-weight: 545;
+      letter-spacing: 1.5px;
+    }
+    .sec2{
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      background-color: rgb(136, 5, 5);
+      color: white;
+    }
+    .sec2 h2{
+      font-size: 31px;
+      padding: 40px 15px;
+      margin-left: 97px;
+      margin-right: 40px;
+      font-weight: 100;
+      font-family: 'montserrat', sans-serif;
+    }
+    .sec2 a{
+      border: solid white 1px;
+      padding: 10px 25px;
+      color: white;
+      font-family: 'montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: 360;
+      background: rgb(147, 2, 2);
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+      border-radius: 3px;
+      margin-left: 90px;
+    }
+    .blue{
+      display: flex;
+      background-color: rgb(0,28,56);
+      padding:72px 115px ;
+      color: rgb(204,205,206);
+      font-family: 'montserrat', sans-serif;
+      line-height: 27px;
+      font-size: 15px;
+      text-align: left;
+      justify-items: center;
+    }
+    .hold{
+      display: flex;
+      align-items: center;
+    }
+    .one{
+      padding: 2px;
+    }
+    #one :hover{
+    
+      margin: 25px;
+      border: 1px solid white;
+      background-color:#242222;
+      width: 300px;
+      height: 70%;
+      visibility: visible;
+
+
+    }
+    .three{
+      padding: 2px;
+  
+    }
+    #three :hover{
+    
+      margin: 20px;
+      border: 1px solid white;
+      background-color:#242222;
+      width: 300px;
+      height: 70%;
+      visibility: visible;
+
+
+    }
+    .subdiv h3{
+      margin-bottom: 60px;
+      color: white;
+
+    }
+  
+    .blue a{
+     color: white;
+     font-weight: 100;
+     display: flex;
+     flex-direction: column;
+    }
+    .blue a:hover{
+      color: rgb(196, 11, 11);
+    }
+    #brief{
+      margin: 0px 100px 0px 0px ;
+      width: 550px;
+      background-color:  rgb(0,28,56);
+    }
+  
+    #brief p{
+      display: block;
+      margin-top: 100px;
+
+    }
+    #firm {
+      margin: 0px 70px 0px 0px;
+      width: 90px;
+      background-color:  rgb(0,28,56);
+    }
+    #firm :nth-of-type(2){
+      margin: 3px 0px;
+    }
+    #prac{
+      width: 400px;
+      margin: 0px 60px 0px 0px;
+      background-color:  rgb(0,28,56);
+      
+    }
+    #info{
+      margin: 0;
+      background-color: rgb(0,28,56);
+      width: 300px;
+    }
+    #prac a{
+      font-family: 'montserrat', sans-serif;
+      text-decoration: dotted underline;
+      
+    }
+    .subdiv2{
+      color: #a3a3a3;
+      padding: 0px 0px 0px 6px;
+      font-size: 17px;
+      font-family: 'montserrat', sans-serif;
+    }
+    #stay{
+      flex-flow: row;
+      background-color:  rgb(0,28,56);
+     /* margin: 0px;*/
+    }
+.for2 input{
+  padding: 15px;
+      color: rgb(172, 172, 172);
+      font-family: 'open sans', sans-serif;
+      border: 1px solid rgb(167, 167, 167);
+      font-weight: 100;
+      border-bottom: 2px;
+      margin-bottom: 6px;
+      
+}
+.for2 input{
+  width: 190px;
+  height: 20px;
+  border-radius: 4px;
+  border-spacing: 2px;
+  border: none;
+  font-size: 16px;
+
+}
+
+div img{
+  position: absolute;
+    z-index: 1;
+    margin-left: 0px;
+
+}
+#info2{
+  margin-left: 35px;
+
+}
+.subdiv{
+  font-family: 'montserrat', sans-serif;
+  line-height: 26px;
+}
+
+.subdiv button{
+  background-color: rgb(147, 1,1);
+      color: white;
+      font-weight: 560;
+      letter-spacing: 1.5px;
+      padding: 15px;
+      border-radius: 4px;
+      border: none;
+      font-size: 16px;
+      width: 222px;
+     cursor: pointer; 
+}
+
+footer div{
+  background-color:#870115;
+  height: 3.5em;
+  color: #fbfbfb;
+  font-size: 13px;
+  display: flex;
+  font-family: "montserrat",sans-serif;
+}
+footer div p{
+  padding: 0.5px;
+    margin-left: 120px;
+}
+#staywit{
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: 'open sans', sans-serif;
+}
+footer #deft{
+  font-family: "montserrat";
+  font-size: 13px;
+  padding-left: 650px;
+  
+}
